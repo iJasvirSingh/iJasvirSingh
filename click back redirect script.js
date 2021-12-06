@@ -1,5 +1,5 @@
-<script>
-    window.history.pushState({page: 1}, &quot;&quot;, &quot;&quot;);
+
+window.history.pushState({page: 1}, &quot;&quot;, &quot;&quot;);
 
 window.onpopstate = function(event) {
     if(event){
@@ -7,4 +7,3 @@ window.onpopstate = function(event) {
         // Code to handle back button or prevent from navigation
     }
 }
-  </script>
